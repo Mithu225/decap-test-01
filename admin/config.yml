@@ -4,14 +4,14 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://decap-oauth-vercel.vercel.app
   auth_endpoint: /api/auth
-media_folder: static/img
-public_folder: /img
+media_folder: public/content/images
+public_folder: /images
 collections:
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{slug}}"
     editor:
       preview: false
     fields:
