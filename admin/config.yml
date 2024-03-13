@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Mithu225/decap-test-01
   branch: main # Branch to update (optional; defaults to master)
-  base_url: https://example.com
   auth_endpoint: https://decap-oauth-vercel.vercel.app/api/auth
 media_folder: static/img
 public_folder: /img
