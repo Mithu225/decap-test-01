@@ -7,6 +7,6 @@ This is body
 
 **Hello world**
 
-![This is alt]( "Hello world image")
+![This is alt](/images/about-us-min-2.jpg "Hello world image")
 
 * ***Booooodddyy***
